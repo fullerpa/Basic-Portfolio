@@ -3,37 +3,68 @@
     <head>
         <meta charset="UTF-8">
         <title>Patrick Fuller - Portfolio</title>
-        <link rel="reset" href="assets/reset.css">
-        <link rel="stylesheet" type="style/css" href="assets/style.css">
+        <link rel="reset" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
-        <!-- This is the backgroung image -->
-        <img class="dark_triangles" src="assets/images/dark-triangles.img.png" alt="Dark Triangles">
-        <header>
-            <!-- This is the header container for css -->
-            <div class="header">
-                <p>
-                    Patrick Fuller
-                </p>
+
+        <!-- This is the main header container -->  
+        <header id="mainHeader">
+            <div class="container">
+                <a href="index.html" id="mainName">Patrick Fuller</a>
+                
+                <!-- Navigation -->
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </nav>
             </div>
         </header>
-        <!-- This needs more work to set up for css -->
-        <nav>
-            <a class="about" href="index.html">About</a>
-            <a class="contact" href="contact.html">Contact</a>
-            <a class="portfolio" href="portfolio.html">Portfolio</a>
-        </nav>
-        <!-- This is the container for the About Me section -->
-        <section>
-            <h1>Portfolio</h1>
-            
-             
-        </section>
+        
+        <!-- This is the container for the Portfolio section -->
+        <div id="mainContainer" class="container">
+            <section id="mainContent">
+                <h1>Portfolio</h1>
+
+                <!-- Sets up multiple divs and headers for various links
+                    for portfolio -->
+                <div class="work">
+                    <img src="assets/images/guess-word-answers-cheats.jpg" alt="Word Guess">
+                    <h3>Word Guess</h3>
+                </div>
+                
+                <div class="work">
+                        <img src="assets/images/rpg_game.jpeg" alt="RPG Game">
+                        <h3>RPG Game</h3>
+                </div>
+
+                <div class="work">
+                    <img src="assets/images/trivia_game.jpeg" alt="Trivia Game">
+                    <h3>Trivia Game</h3>
+                </div>
+
+                <div class="work">
+                        <img src="assets/images/info_app.jpeg" alt="Rutgers Info Widget">
+                        <h3>Rutgers Info Widget</h3>
+                </div>
+
+                <div class="work">
+                        <img src="assets/images/rock_paper.jpeg" alt="Rock Paper Scissors">
+                        <h3>Rock Paper Scissors</h3>
+                </div>
+
+            </section>  
+        </div>
+
+
+
         <!-- Container for the footer and bottom page css -->
         <footer>
-            <div class="footer">
+            <div class="container">
                 <p>copywrite &#169</p>
             </div>
         </footer>
+
     </body>
 </html>
